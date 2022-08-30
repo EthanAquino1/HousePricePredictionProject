@@ -24,6 +24,6 @@ Model and cross validation: Using repeated cross valudation, I created a multipl
 
 Examining the model: After running my model, I ran a summary of my model to examine it further. I found an 0.86 multiple R squared value, and a RSE of 0.16. The model was working well, and I also ran some predictions and plotted the model compared to the data. I also plotted some extra graphs which showed residuals vs fitted, Normal Q-Q, and a scale-location plot. However I felt as though I could improve my model. 
 
-Backwards elimination:
+Backwards elimination: In order to adjust my model, I looked at the summary of my first model and looked at how significant each of the features was. *** meant it was highly significant, so I therefore took all features that were highly significant and eliminated the non significant features. Using my significant features, I created my second model with the same method as my first model, and ran it again. This time, I got an 0.88 multiple R squared value, and a RSE of 0.15. This model was an improvement, and I again ran prediction as well as the same visual plots to understand my model some more.
 
-Final model:
+Final model: My final model was the second multiple linear regression model I created with backwards elimination, which I saved at the end. 

@@ -1,6 +1,5 @@
 # HousePricePredictionProject
 
-#First I deal with the missing data
 #After, I do some data visualization and exploration, and find which variables are most correlated which I want to use on my model
 #I also find outliers which I take out of my data
 #I then do multiple linear regression, with a train test split and k-fold validation, and do some plotting to show the accuracy of my model
@@ -19,11 +18,11 @@ Cleaning the data: Using a feature from DataExplorer, I was able to create a tab
 
 Visualizing the data: My next step was to visualize the data, and I was able to use the dplyr library to select the numeric features from the dataset. After doing so, I used the GGally library to create a table with the correlations between the features. After viewing this table, I decided to take a further look at some of the features with ggplot, and looked at year built, overall quality, living area, and sale price. I was noticing a correlation between living area and sale price, and I created a scatterplot between the two and found a linear correlation. I also found some extreme outliers in the data, and before moving on to my model, I removed three outliers from my dataset. 
 
-Data preprocessing:
+Data preprocessing: Using the numeric values, I split the dataset into a training set and a test set, with an 0.8 split ratio. 
 
-Model and cross validation:
+Model and cross validation: Using repeated cross valudation, I created a multiple linear regression model for my training set.
 
-Examining the model:
+Examining the model: After running my model, I ran a summary of my model to examine it further. I found an 0.86 multiple R squared value, and a RSE of 0.16. The model was working well, and I also ran some predictions and plotted the model compared to the data. I also plotted some extra graphs which showed residuals vs fitted, Normal Q-Q, and a scale-location plot. However I felt as though I could improve my model. 
 
 Backwards elimination:
 

@@ -6,3 +6,25 @@
 #I then do multiple linear regression, with a train test split and k-fold validation, and do some plotting to show the accuracy of my model
 #backwards elimination
 #I also look at my test data to do some predictions
+
+Buisness problem:
+
+Plan of attack:
+
+Importing libraries:
+
+Inspecting the dataset:
+
+Cleaning the data:
+
+Visualizing the data:
+
+Data preprocessing:
+
+Model and cross validation:
+
+Examining the model:
+
+Backwards elimination:
+
+Final model:
